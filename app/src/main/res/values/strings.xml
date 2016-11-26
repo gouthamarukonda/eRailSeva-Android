@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">eRailSeva</string>
+    <string name="editText1">Username</string>
+    <string name="editText2">Password</string>
+    <string name="editText3">Email</string>
+    <string name="editText4">re-enter Password</string>
+    <string name="pnrno">PNR No.</string>
+    <string name="Login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

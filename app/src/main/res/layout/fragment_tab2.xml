@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab2"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/refresh"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="120dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="refresh"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#B3B3B3"></View>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ONGOING ORDERS"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transactions"
+        >
+    </TableLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLETED ORDERS"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/completed_transactions"
+        >
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>
